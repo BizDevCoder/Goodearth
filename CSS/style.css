@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    outline: none;
+    color: #000000;
+    text-transform: capitalize;
+
+}
+body{
+    background-color: rgb(255, 249, 249);
+}
+
+header{
+    background-color: rgb(251, 243, 233);
+    font-size: 15px;
+    font-weight: 200;
+}
+
+
+
+.top p{
+    color: rgb(255, 255, 255);
+    background-color: #ab1e56 ;
+    display: flex;
+    font-size: 10px;
+    font-weight: 400;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+    /* padding: 14px 31px 14px 31px; */
+    z-index: 0;
+    position: relative;
+}
+
+
+.jadu{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 0px;
+    margin: 0px 20px 0px 140px;
+}
+    
+
+.logo img{
+    height: 42px;
+    margin: 0px 0px 0px 0px; 
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 42px;
+}
+
+.icon{
+    display: flex;
+    column-gap: 20px;
+}
+
+.navbar a::after{
+    content: "";
+    width: 0%;
+    height: 0.2px;
+    background-color: rgb(0, 0, 0);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navbar a:hover::after{
+    width: 100%;
+
+}
+
+.mid-sec{
+    display: grid;
+}
+
+.bg-image{
+    position: relative;
+    margin-left: 2px;
+}
+
+.ft-image{
+    position: absolute;
+    margin-left: 580px;
+    margin-top: 114px;
+}
+
+.future{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    column-gap: 60px;
+}
+
+.future a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 60px;
+    color: rgb(80, 79, 78);
+}
+
+.mockup{
+    margin-top: 80px;
+    padding: 0px 10px 0px 10px;
+}
+
+.mockup img{
+    border-radius: 20px;
+}
+
+.part-1 video{
+    object-fit: fill;
+    border-radius: 20px;
+}
+
+.part-1{
+    margin-bottom: 26px;
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    column-gap: 40px;
+}
+.mid-text{
+    display: grid;
+    margin-top: 360px;
+    position: absolute;
+}
+.flower{
+    margin-left: 70px;
+}
+.mid-text p{
+    text-align: center;
+    margin-top: 10px;
+}
+.part-2{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+
+
+.frame-section .frames{
+    display: flex;
+    align-content: start;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.frame-section-bg{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 28px;
+    justify-content: center;
+}
+
+.star{
+    display: flex;
+    margin-left: 220px;
+    margin-top: 100px;
+}
+
+.frame-header{
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.frame-text p{
+    font-size: 18px;
+    font-family: poppins;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(233, 233, 233);
+}
+.frame-2 a{
+    font-size: 24px;
+    font-family: poppins;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    color: rgb(233, 233, 233);
+}
+
+.frame-2{
+    height: 700px;
+    width: 520px;
+    background-color: #7e0334;
+}
+
+
+.flower-bot{
+    display: flex;
+}
+.branch-1{
+    display: flex;
+    column-gap: 650px;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+.branch-bot-header{
+    margin-top: 20px;
+    position: absolute ;
+    margin-left:880px;
+}
+
+.branch-bot-header p{
+    font-size: 16px;
+    text-align: center;
+}
+
+.jadu-2{
+    margin-top: 260px;
+    margin-left: 700px;
+}
+
+
+.pot{
+    display: flex;
+    align-items: baseline;
+    column-gap: 80px;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 160px;
+}
+
+.hero{
+    margin-top: 360px;
+}
+
