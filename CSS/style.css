@@ -204,8 +204,9 @@ header{
     background-color: #7e0334;
 }
 
+/* .....// */
 
-.flower-bot{
+/* .flower-bot{
     display: flex;
 }
 .branch-1{
@@ -250,4 +251,39 @@ header{
 .hero-1 img{
     display: grid;
     position: absolute;
+} */
+
+.hero-section{
+    display: flex;
+    column-gap: 40px;
+    overflow: hidden;
+    align-items: start;
 }
+
+.hero-1{
+    display: flex;
+
+}
+
+.hero-img{
+    margin-top: 0px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.pot{
+    margin-top: 154px;
+    margin-left: 254px;
+    position: absolute;
+}
+
+.hero-img-2{
+margin-left: 100px;
+}
+
+.pot-2{
+
+}
+
+
+
