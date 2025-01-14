@@ -244,7 +244,7 @@ header{
 
 .hero-part{
     display: flex;
-    margin-top: 280px;
+    margin-top: 320px;
     position: relative;
     /* overflow: hidden; */
 }
@@ -275,4 +275,29 @@ header{
     font-size: 18px;
     font-weight: 600;
     color: rgb(255, 241, 241);
+}
+
+.bottom{
+    display: flex;
+    margin-top: 120px;
+    overflow: hidden;
+}
+
+.bt-img{
+    display: flex;
+}
+
+.final-bt{
+    display: flex;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.bottom-c p{
+    height: 80px;
+    width: 1519px;
+    background-color: #626262;
+    align-items: center;
+    padding: 7px;
+    text-align: center;
 }
